@@ -4,6 +4,6 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class AppService {
   getHello(): string {
-    return 'Hello World! This is the main interface of this API';
+    return 'Hello World! This is the main interface of this nestjs API';
   }
 }
